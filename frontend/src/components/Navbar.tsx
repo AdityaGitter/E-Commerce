@@ -31,13 +31,13 @@ function Navbar() {
         ></input>
       </div>
         <ul className={`flex flex-col md:flex-row gap-3 md:gap-8 text-center w-full md:w-auto px-20 ${isMenuOpen ? 'block' : 'hidden'} md:flex`}>
-            <li><NavLink to="/Login" className={({ isActive }) => isActive ? 'text-purple-500' : 'text-black'}>LogIn</NavLink></li>
             <li className='text-2xl pt-0.5 flex justify-center'><NavLink to="/cart" className={({ isActive })=> isActive ? 'text-purple-500' : 'text-black'}><IoMdCart /></NavLink></li>
             <li><NavLink to="/" className={({ isActive }) => isActive ? 'text-purple-500': 'text-black'}>Home</NavLink></li>
             <li><NavLink to="/shop" className={({ isActive }) => isActive ? 'text-purple-500': 'text-black'}>Shop</NavLink></li>
-            <li><NavLink to="/about" className={({ isActive }) => isActive ? 'text-purple-500': 'text-black'}>About</NavLink></li>
-            <li><NavLink to="/contact" className={({ isActive }) => isActive ? 'text-purple-500': 'text-black'}>Contact</NavLink></li>
-            <li className='text-2xl pt-0.5 flex justify-center'><NavLink to="/profile" className={({ isActive }) => isActive ? 'text-purple-500': 'text-black'}><VscAccount  /></NavLink></li>    
+            <li><NavLink to="/about" className={({ isActive }) => isActive ? 'text-purple-500': 'text-black'}>Sell</NavLink></li>
+            <li><NavLink to="/contact" className={({ isActive }) => isActive ? 'text-purple-500': 'text-black'}>Customer Service</NavLink></li>
+            <li className='text-2xl pt-0.5 flex justify-center'><NavLink to="/profile" className={({ isActive }) => isActive ? 'text-purple-500': 'text-black'}><VscAccount  /></NavLink></li>
+            <li><NavLink to="/Login" className={({ isActive }) => isActive ? 'text-purple-500' : 'text-black'}>LogIn</NavLink></li>    
         </ul>
 
     </nav> 
