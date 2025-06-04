@@ -4,10 +4,10 @@ import{ Link} from 'react-router-dom'
 function LogIn() {
   return (
     <>
-      <div className='bg-purple-200 flex justify-center items-center h-screen'>
+      <div className='bg-purple-200 bg-gradient-to-br from-pink-400 via-purple-400 to-violet-400 md:bg-none flex justify-center items-center h-screen'>
         <div className='flex flex-col justify-start items-center gap-16 p-6 h-3/4 md:w-1/3 rounded-3xl 
                         bg-gradient-to-br from-pink-400 via-purple-400 to-violet-400
-                        text-white border-2 border-gray-400'>
+                        text-white md:border-2 border-gray-400'>
           <div className='flex flex-col items-center gap-10'>
             <h1 className='font-bold text-4xl text-white'>Welcome Back!</h1>
             <h1 className='font-bold text-2xl text-white underline'>LOGIN</h1>

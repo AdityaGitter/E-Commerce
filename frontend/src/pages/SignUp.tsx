@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom'
 function SignUp() {
   return (
     <>
-      <div className='bg-purple-200 flex justify-center items-center h-screen'>
+      <div className='bg-purple-200 md:bg-none bg-gradient-to-br from-pink-400 via-purple-400 to-violet-400 flex justify-center items-center h-screen'>
         <div className='flex flex-col justify-between p-6 h-3/4 md:w-2/5 rounded-3xl 
                         bg-gradient-to-br from-pink-400 via-purple-400 to-violet-400
-                        text-white border-2 border-gray-400'>
+                        text-white md:border-2 border-gray-400'>
 
           <div className='flex flex-col items-center gap-2'>
-            <h1 className='font-bold text-4xl'>Create Your Account!</h1>
+            <h1 className='font-bold  flex text-4xl'>Create Your Account!</h1>
             <h2 className='font-bold text-2xl underline'>SIGNUP</h2>
           </div>
 
