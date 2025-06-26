@@ -10,7 +10,7 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   return (
     <>
-     <nav className='bg-purple-300 border-1 border-gray-500 px-4 py-3 flex flex-col md:flex-row md:items-center md:justify-between gap-4'>
+     <nav className='bg-purple-300 border-1 border-gray-500 px-4 py-5 flex flex-col md:flex-row md:items-center md:justify-between gap-4'>
       <div className='flex items-center justify-between w-full md:w-auto'>
         <div className='text-xl font-bold'>
           LOGO
@@ -19,7 +19,7 @@ function Navbar() {
             {isMenuOpen ? <FaTimes/> : <FaBars/>}
           </button>
       </div>
-      <div className='bg-white px-3 py-1 rounded-sm w-full flex gap-2 flex-row text-gray-500 md:w-1/3 items-center'>
+      <div className='bg-white px-3 py-1 rounded-sm w-full flex gap-2 flex-row text-gray-500 md:w-1/4 items-center'>
         <div><FaSearch />
         </div>
         <input 
